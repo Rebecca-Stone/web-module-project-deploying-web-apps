@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/Selections.css'
 
 const Selections = (props) => {
   return (

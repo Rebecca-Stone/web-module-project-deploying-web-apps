@@ -1,24 +1,13 @@
 import React from "react";
+import "./styles/Results.css";
 
 const Results = (props) => {
+  const { gameResult } = props.gameResult;
+
   return (
-    <section className="results-wrapper">
-      {/* display component starts */}
       <div className="display-wrapper">
-        <div className="win">Win</div>
-        <div className="tie">Tie</div>
-        <div className="lose">Lose</div>
+        <h2>{ gameResult }</h2>
       </div>
-      {/* display component ends*/}
-      {/* image component starts*/}
-      <div className="imageChoice-wrapper">
-        <div className="userChoice-image">this is what the user picked</div>
-        <div className="computerChoice-image">
-          this is what the computer picked
-        </div>
-      </div>
-      {/* image component ends*/}
-    </section>
   );
 };
 
