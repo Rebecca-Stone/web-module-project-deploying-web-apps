@@ -6,13 +6,13 @@
 }
 
 
-.userChoice-image {
+#userChoice-image {
   margin-left: 7%;
   width: 40%;
   text-align: center;
   font-size: 8rem;
 }
-.computerChoice-image {
+#computerChoice-image {
   margin-left: 5%;
   width: 40%;
   text-align: center;

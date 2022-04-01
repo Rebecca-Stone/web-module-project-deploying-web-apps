@@ -7,9 +7,9 @@
   margin-left: 5%;
 }
 
-.rock,
-.paper,
-.scissors {
+#rock,
+#paper,
+#scissors {
   margin: 2%;
   font-size: 6rem;
   background-color: rgba(216, 191, 143, 0.664);

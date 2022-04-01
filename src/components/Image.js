@@ -5,8 +5,10 @@ const Image = (props) => {
   const { compImage, userImage } = props;
   return (
     <div className="imageChoice-wrapper">
-      <div className="userChoice-image">{userImage}</div>
-      <div className="computerChoice-image">{compImage}</div>
+      <div id="userChoice-image" className={userImage}>
+      </div>
+      <div id="computerChoice-image" className={compImage}>
+      </div>
     </div>
   );
 };
