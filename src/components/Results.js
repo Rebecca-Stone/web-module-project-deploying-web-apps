@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Results.css";
 
 const Results = (props) => {
-  const { gameResult } = props.gameResult;
+  const { gameResult } = props;
 
   return (
       <div className="display-wrapper">

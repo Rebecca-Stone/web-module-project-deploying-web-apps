@@ -20,10 +20,12 @@ Think about which project you are most proud of up to this point that you have b
 
 ### Task 2: Project Requirements
 #### Build your DOM
-* [ ] CD inside of created source
-* [ ] Rebuild a static (non-api accessing) project here based on a previous assignment.
-* [ ] Deploy to vercel.
-* [ ] ***Make sure that your vercel project correctly points to the root folder of your project.***
+* [X] CD inside of created source
+* [X] Rebuild a static (non-api accessing) project here based on a previous assignment.
+* [X] Deploy to vercel.
+* [X] ***Make sure that your vercel project correctly points to the root folder of your project.***
 
 ### Submission Format
-- [ ] For this project, submit the link to your vercel hosted website.
+- [X] For this project, submit the link to your vercel hosted website.
+<!-- link below -->
+https://vercel.com/new/success?projectName=rock-paper-scissors&deploymentUrl=rock-paper-scissors-h4yd2u4qk-rebecca-stone.vercel.app&redirect-url=&developer-id=&external-id=&branch=main
